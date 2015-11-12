@@ -7,7 +7,7 @@ gem 'sass-rails', github: "rails/sass-rails"
 gem 'arel', github: "rails/arel"
 gem 'rack', github: "rack/rack"
 gem 'pg', '~> 0.18'
-gem 'unicorn'
+gem 'thin'
 gem 'active_model_serializers', '~> 0.10.0.rc2'
 
 group :development, :test do
